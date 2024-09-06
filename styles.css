@@ -128,19 +128,17 @@ iframe {
 /* Responsive Styles */
 @media (max-width: 768px) {
     .project-content {
-      flex-direction: column;
+        flex-direction: column;
     }
-  
+
     .video-container {
-      position: relative;
-      width: 100%;
-      overflow: hidden;
+        position: relative;
+        flex: 0 0 100%;
+        padding-bottom: 56.25%; /* 16:9 aspect ratio for full width */
+        width: 100%;
+        overflow: hidden;
     }
-  
-    .video-container iframe {
-      object-fit: cover; /* Or other desired value like contain */
-    }
-  }
+}
 
 /* Footer Styles */
 footer {
