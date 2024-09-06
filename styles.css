@@ -128,16 +128,19 @@ iframe {
 /* Responsive Styles */
 @media (max-width: 768px) {
     .project-content {
-        flex-direction: column;
+      flex-direction: column;
     }
-
+  
     .video-container {
-        position: relative;
-        width: 100%;
-        overflow: hidden;
-        max-height: calc(60vw / (16 / 9));  /* Calculate max-height based on width */
+      position: relative;
+      width: 100%;
+      overflow: hidden;
     }
-}
+  
+    .video-container iframe {
+      object-fit: cover; /* Or other desired value like contain */
+    }
+  }
 
 /* Footer Styles */
 footer {
