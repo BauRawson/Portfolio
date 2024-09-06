@@ -134,7 +134,7 @@ iframe {
     .video-container {
         position: relative;
         flex: 0 0 100%;
-        padding-bottom: 33.75%; /* 16:9 aspect ratio for full width */
+        padding-bottom: 56.25%; /* 16:9 aspect ratio for full width */
         width: 100%;
         overflow: hidden;
     }
