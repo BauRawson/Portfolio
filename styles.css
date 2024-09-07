@@ -21,11 +21,11 @@ header {
     background-color: #425a72; /* Softer dark blue */
     color: #eaeaea; /* Light grey text */
     text-align: center;
-    padding: 1rem;
+    padding: 0rem;
 }
 
 header h1 {
-    margin-bottom: 0.5rem;
+    margin-bottom: 0rem;
 }
 
 /* Main Content Styles */
